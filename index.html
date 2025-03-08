@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 – Dynamic Web Fundamentals - Nathalie Oliekan</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Nathalie Oliekan | Home Page">
+    <meta name="author" content="Nathalie Oliekan">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@416&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>WDD 131 - OLIEKAN</h1>
+    <header>
+        <h1>WDD 131 – Dynamic Web Fundamentals - Nathalie Oliekan</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/nathalieoliekan/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/ot/prov/3?lang=eng" target="_blank">Favorite Scripture</a></li>
+                <li><a href="#" target="_blank">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card about-me">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/profile_image.jpg" alt="Profile Picture" class="profile-pic">
+                <p>
+                    I am a wife and a mother from Madagascar with a natural curiosity and a passion for lifelong learning. 
+                    I thrive on adding new skills to my repertoire, which led me to pursue a second degree in Software Development to expand my technical expertise. 
+                    With over seven years of diverse experience in customer service roles, including customer service representative, trainer, account manager, and currently an account servicing specialist at Upgrade Inc., 
+                    I am driven by continuous growth and development.
+                
+                    In addition to my professional ambitions, I have a strong interest in interior design, fashion, and spending quality time with my family. I enjoy swimming and reading personal development books, always seeking ways to improve both personally and professionally. My academic background includes a bachelor’s in Economics and Management, and I am excited to apply my growing technical skills to advance in the fields of software engineering and web development.
+                
+                    Since living here in the US, my family and I have lived in three states. First, we lived in Utah while my husband finished school, then we moved to Alabama for a work opportunity, and we have ended up in Arizona to get out of the humid climate of the south and live closer to my husband's family
+                </p>
+            </div>
+            <div class="about-images">
+                <img src="images/utah.jpg" alt="Map Picture" class="map-pic">
+                <img src="images/arizona.jpg" alt="Map Picture" class="map-pic">
+                <img src="images/alabama.jpg" alt="Map Picture" class="map-pic">
+            </div>
+        </section>
+
+        <section class="card achievements">
+            <h2>Madagascar</h2>
+            <div class="achievements-content">
+                <img src="images/mada_image.jpg" alt="Description of Image 1">
+                <p>I am deeply proud of my homeland, Madagascar—a place where nature’s beauty, rich flavors, and vibrant culture come together in harmony. Our culture teaches us to value family, help one another, and find happiness in life’s simplest moments. It’s a place where joy is abundant, and gratitude flows through every aspect of life. I am inspired by the wisdom, resilience, and unity of my people, and I strive to embody these values in everything I do. Through cooking, dancing, and cherishing time with loved ones, we share our prosperity, wisdom, and hope, always leading by example. Madagascar will forever be my source of strength, and I am honored to share its light with the world.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Nathalie Oliekan | Arizona/USA</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
