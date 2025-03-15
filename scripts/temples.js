@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuButton = document.getElementById("menu-toggle");
     const navMenu = document.getElementById("nav-menu");
 
-    // Toggle menu visibility
     menuButton.addEventListener("click", () => {
         if (navMenu.style.display === "block") {
             navMenu.style.display = "none";
@@ -16,8 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-// Dynamically insert current year
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 
-// Get the last modified date of the document
 document.getElementById("lastModified").textContent = "Last modified: " + document.lastModified;
