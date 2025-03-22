@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Title</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css" media="screen and (min-width: 768px)">
+    <script defer src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Madagascar</h1>
+    </header>
+
+    <main>
+        <picture>
+            <source srcset="images/madagascar_hero.webp" media="screen and (min-width: 768px)">
+            <img src="images/madagascar_hero.webp" alt="Hero Image">
+        </picture>
+    
+        <section class="data">
+            <h2>Data</h2>
+            <p><strong>Area:</strong> 587,041 sq km</p>
+            <p><strong>Population:</strong> 27,691,018</p>
+            <p><strong>Capital:</strong> Antananarivo</p>
+            <p><strong>Currency:</strong> Malagasy Ariary</p>
+            <p><strong>Langauges:</strong> Malagasy, French</p>
+            <p><strong>Time Zone:</strong> UTC+3</p>
+        </section>
+    
+        <section class="weather">
+            <h2>Weather <span class="weather-icon">⛅</span></h2>
+            <img src="images/weather_icon.svg" alt="Weather Icon" class="weather-img">
+            <p><strong>Temperature:</strong> 8°C</p>
+            <p><strong>Wind Speed:</strong> 6 km/h</p>
+            <p><strong>Wind Chill:</strong> <span id="windChill">N/A</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Nathalie Oliekan | Arizona/USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
