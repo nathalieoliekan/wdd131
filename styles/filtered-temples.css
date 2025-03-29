@@ -72,23 +72,6 @@ nav ul li a:hover {
     padding: 10px;
 }
 
-figure {
-    background: white;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-figure img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-figcaption {
-    font-weight: bold;
-    margin-top: 5px;
-}
-
 footer {
     background-color: #02080f;
     color: white;
