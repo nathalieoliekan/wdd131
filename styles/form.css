@@ -8,6 +8,10 @@ body {
     padding: 0;
 }
 
+header {
+    font-family: "Garamond", serif;
+}
+
 header, footer {
     background-color: rgb(84, 74, 136);
     color: white;
