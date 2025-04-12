@@ -1,9 +1,3 @@
-// Dynamically insert current year
-document.getElementById("currentyear").textContent = new Date().getFullYear();
-
-// Get the last modified date of the document
-document.getElementById("lastModified").textContent = "Last modified: " + document.lastModified;
-
 document.addEventListener("DOMContentLoaded", () => {
     const menuButton = document.getElementById("menu-toggle");
     const navMenu = document.getElementById("nav-menu");
@@ -18,3 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+// Dynamically insert current year
+document.getElementById("currentyear").textContent = new Date().getFullYear();
+
+// Get the last modified date of the document
+document.getElementById("lastModified").textContent = "Last modified: " + document.lastModified;
+

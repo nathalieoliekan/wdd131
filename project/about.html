@@ -7,17 +7,16 @@
         <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Nathalie Oliekan | About Us Page">
         <meta name="author" content="Nathalie Oliekan">
         <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/base-large.css" media="(min-width: 768px)">
         <link rel="stylesheet" href="styles/about.css">
-        <script src="scripts/getdates.js" defer></script>
+        <script src="scripts/base.js" defer></script>
     </head>
     <body>
         <header>
-            <div class="header-top">
-                <img src="images/Healing Power logo.webp" alt="Healing Power Logo" class="logo" loading="lazy" >
-                <h1>Healing Power</h1>
-            </div>
-            <nav>
-                    <ul>
+            <h1>Healing Power</h1>
+            <button id="menu-toggle" class="menu-button">☰</button>
+            <nav id="nav_menu">
+                <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
                     <li><a href="about.html">About Us</a></li>
@@ -74,13 +73,13 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
     
-                    <label for="phone">Phone Number:</label>
+                    <label for="phone">Phone Number (Optional):</label>
                     <input type="tel" id="phone" name="phone">
     
-                    <label for="age">Age:</label>
+                    <label for="age">Age (Optional):</label>
                     <input type="number" id="age" name="age">
     
-                    <label for="gender">Gender:</label>
+                    <label for="gender">Gender (Optional):</label>
                     <select id="gender" name="gender">
                         <option value="" disabled selected>Select</option>
                         <option value="female">Female</option>
@@ -88,7 +87,7 @@
                         <option value="other">Other</option>
                     </select>
     
-                    <label for="interests">Tell us about your interests:</label>
+                    <label for="interests">Tell us about your interests (Optional):</label>
                     <textarea id="interests" name="interests" rows="4"></textarea>
     
                     <button type="submit">Join Now</button>

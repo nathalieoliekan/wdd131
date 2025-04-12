@@ -24,44 +24,36 @@ header, footer {
     text-align: center;
 }
 
-/* ------------------Logo styling------------------ */
-.logo {
-    width: 150px;
-    height: auto;
-}
-
-.header-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.logo {
-    position: absolute;
-    left: 1rem;
-    top: 0.5rem;
-}
-
 h1 {
     font-family: "Merriweather", serif;
     font-size: 3.5rem;
 }
 
 /* ------------------Nav styling------------------- */
+.menu-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: block;
+}
+
 nav {
     background-color: var(--nav-background-color);
-    height: 50px;
-    width: 100%;
     display: flex;
-    justify-content: center;
+    text-align: left;
+    padding: 10px;
 }
 
 nav ul {
-    display: flex;
     justify-content: center;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -69,6 +61,7 @@ nav ul li {
 }
 
 nav ul li a {
+    display: block;
     color: var(--nav-text-color);
     text-decoration: none;
     padding: 10px;
@@ -85,6 +78,7 @@ nav ul li a:hover {
 
 main {
     width: 95%;
+    max-width: 1500px;
     margin: 20px auto;
     gap: 20px;
 }
