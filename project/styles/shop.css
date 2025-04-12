@@ -8,7 +8,6 @@
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 1rem;
-    text-align: center;
     border-radius: 8px;
 }
 
@@ -19,22 +18,10 @@
     border-radius: 6px;
 }
 
-/* About Page */
-.about-hero {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: center;
-    margin-bottom: 2rem;
+.product-card h3{
+    text-align: center
 }
 
-.about-hero img {
-    width: 100%;
-    max-width: 600px;
-    object-fit: cover;
-    flex: 1;
-}
-
-.about-text {
-    flex: 1;
+.product-card p{
+    font-size: .7rem;
 }
