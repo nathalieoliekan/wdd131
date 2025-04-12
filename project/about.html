@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us Page</title>
+        <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Nathalie Oliekan | About Us Page">
+        <meta name="author" content="Nathalie Oliekan">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/about.css">
+        <script src="scripts/getdates.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Healing Power</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section class="about-hero">
+                <img src="images/hero-about.jpg" alt="About Hero Image">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>Healing Power was created to inspire people to live in balance with nature and themselves. We believe in the healing power of wellness, and our team is dedicated to helping you achieve peace of mind and a healthier life.</p>
+                </div>
+            </section>
+    
+            <section>
+                <h2>Join Our Wellness Community</h2>
+                <form>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+    
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age">
+    
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="">Select</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                    </select>
+    
+                    <label for="interests">Tell us about your interests:</label>
+                    <textarea id="interests" name="interests" rows="4"></textarea>
+    
+                    <button type="submit">Join Now</button>
+                </form>
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; <span id="currentyear"></span> | Nathalie Oliekan | Arizona/USA</p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>
